@@ -1,9 +1,9 @@
 # undefined
-[![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/keithyyy/DemoReadME)
+[![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/keithyyy/demoreadme)
 
 # Description
 
-It's all about being able to create a readme.md quickly through a series of questions
+showcasing how to generate readme files thru node
 
 # Table of Contents
 
@@ -20,20 +20,20 @@ It's all about being able to create a readme.md quickly through a series of ques
 * [Questions](#questions)
 
 # Installation
-These are the instructions for how and what's to be installed for this project: You'll need to have node.js and the Inquirer npm installed for it to work.
+These are the instructions for how and what's to be installed for this project: have inquirer and node installed beforehand
 
 # Usage
-​This project is designed to be used for It is used to showcase the capabilities of node and the command line!
+​This project is designed to be used for to quickly write md files with ease
 
 # License
-This project is under the The Unlicense license.
+This project is under the MIT license.
 
 # Contributing
-​Contributors: Just me, @keithyyy
+​Contributors: Me, keith.
 
 # Tests
-To run any tests, this is the guide on how to do so: Be sure to have inquirer and node installed! Otherwise things won't work.
+To run any tests, this is the guide on how to do so: none
 
 # Questions
-If you have any questions about the repo, open an issue or contact keithyyy directly keithcrooc@gmail.com.
+If you have any questions about the repo, open an issue or contact keithyyy directly - keithcrooc@address.com.
 
