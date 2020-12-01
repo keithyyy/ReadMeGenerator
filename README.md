@@ -15,5 +15,3 @@ Just in case you find a video of it in actions below 👇
 
 **You can find a link to the video here!** - https://keithyyy.github.io/WeatherDash/
 
-**Here's a screenshot of the weather dash in action:**
-![WeatherDashScreenshot](KlimateKeithSS.png)
