@@ -28,7 +28,7 @@ These are the instructions for how and what's to be installed for this project: 
 ​This project is designed to be used for ${data.Usage}
 
 # License
-This project is license under the ${data.License} license.
+This project is under the ${data.License} license.
 
 # Contributing
 ​Contributors: ${data.Contribution}
