@@ -22,7 +22,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "What's this project about? Write a brief description",
+        message: "What's this project about? Write a brief description:",
         name: "Description",
     },
     {
@@ -45,6 +45,17 @@ const questions = [
         message: "What are some testing instructions?",
         name: "Testing",
     },
+    {
+        type: "list",
+        message: "Select a license you'll be using",
+        name: "License",
+        choices: [
+            'MIT',
+            'The Unlicense',
+            'Mozilla Public'
+
+        ]
+    },
 
 ];
 
@@ -55,8 +66,10 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err);
         } else {
-            console.log(fileName + "successfully generated!")
+            console.log(fileName + " successfully generated!")
+            
         }
+
 
     })
 }
