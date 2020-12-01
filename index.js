@@ -51,7 +51,7 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {
 
-    fs.writeFile("./ReadMeBin"+fileName, data, function(err) {
+    fs.writeFile("./ReadMeBin/"+fileName, data, (err) => {
         if (err) {
             return console.log(err);
         } else {
@@ -64,8 +64,8 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
-    .then(function(data) {
-        writeToFile("GoodREADME.md", generatorMarkdown(data));
+    .then(data => {
+        writeToFile(`${data.Title}.md`, generatorMarkdown(data));
     });
 
 }
