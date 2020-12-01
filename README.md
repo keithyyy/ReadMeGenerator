@@ -13,7 +13,7 @@ The readme markdown will be then created and can be found in the "ReadMeBin" fol
 It's important to note that in order for the series of question to be prompted, users will need to have node & inquirer installed.
 Just in case you find a video of it in actions below 👇
 
-**You can find a link to the video here!** - 
+**You can find a link to the video here!** - https://youtu.be/Wkk5o1Au6to
 
 **Here's a screenshot of the command line in action**
 ![readmegen_ss](ReadMeGenSS.png)
