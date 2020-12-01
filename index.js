@@ -50,10 +50,23 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+
+    fs.writeFile("./ReadMeBin"+fileName, data, function(err) {
+        if (err) {
+            return console.log(err);
+        } else {
+            console.log(fileName + "successfully generated!")
+        }
+
+    })
 }
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions)
+    .then(function(data) {
+        writeToFile("GoodREADME.md", generatorMarkdown(data));
+    });
 
 }
 
